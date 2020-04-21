@@ -264,9 +264,7 @@ function _defineProperties(target, props) { for (var i = 0; i < props.length; i+
 
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
 
-var Player =
-/*#__PURE__*/
-function () {
+var Player = /*#__PURE__*/function () {
   function Player(node) {
     var _this = this;
 
@@ -509,7 +507,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62123" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50065" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
